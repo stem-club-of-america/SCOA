@@ -4,4 +4,5 @@ STEM Club of America (SCOA) was founded in Grovetown, Georgia. The idea of SCOA 
 
 SCOA gained 501(c)(3) status in 2019. SCOA supports STEM clubs in achieving their goals in providing educational technical training to the local community. The organization provides STEM educational materials, equipment, mentors, meetup location options and help running the clubs.
 
+---
 :copyright: 2019 STEM Club of America
