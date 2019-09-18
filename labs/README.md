@@ -1,8 +1,5 @@
 ![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
 
-# projects_private
-This is a working repository used for development prior to release to the public.
-
 ## Projects
 1. [Morse Code](./morse_code/)
     This Raspberry Pi project involves using a python script to generate Morse code to a buzzer connected to it.
