@@ -155,3 +155,6 @@ Have the students pick a file and see who edited the lines in it: `git blame FIL
 ## Experimentation
 Allow the students to Branch, make edits or create files, add and commit, merge 
 back into master, and push their changes back up to the server.
+
+---
+:copyright: 2019 STEM Club of America

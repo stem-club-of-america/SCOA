@@ -162,3 +162,6 @@ bottom.  Set *Developers + Maintainers* for both *merge* and *push* and click
 
 Now anyone listed as a Developer or Maintainer for this repository will have
 full control of the master branch.
+
+---
+:copyright: 2019 STEM Club of America
