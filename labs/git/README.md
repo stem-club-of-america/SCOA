@@ -12,8 +12,8 @@ covering some of the basic commands and uses.
 ## Setup
 There are a number of ways that you could approach using and teaching Git.  
 I have found that most commonly, Git will be used to push to and pull from a 
-remote repository; the most popular being (https://www.github.com)[https://www.github.com] 
-and (https://www.gitlab.com)[https://www.gitlab.com].  Both should allow you to 
+remote repository; the most popular being [Github](https://www.github.com) 
+and [GitLab](https://www.gitlab.com).  Both should allow you to 
 setup free accounts and public repositories to aid in the teaching of the 
 material.  It is by far the simplest method in my opinion and will get you up 
 and running very quickly. It does however, require different email accounts for
