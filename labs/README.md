@@ -19,5 +19,8 @@
 6. [OTW CTF](./otw_ctf/)
     This project utilizes the Over the Wire server as a CTF (Capture the Flag) style exercise.
 
+7. [GIT](./git/)
+    This project demonstrates how to use git to collaborate on various projects.
+
 ---
 :copyright: 2019 STEM Club of America
