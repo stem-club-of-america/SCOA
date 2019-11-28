@@ -82,3 +82,7 @@ class Maze:
                     return (row, col)
 
         return None
+
+    def __str__(self):
+        for row in self.maze:
+            print(''.join(row))
