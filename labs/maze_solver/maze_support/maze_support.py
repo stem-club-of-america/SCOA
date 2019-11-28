@@ -34,10 +34,12 @@ class Maze:
     '''
     Maze loads and allows the querying of the maze.
     '''
-    def __init__(self, maze_path):
-        if os.path.exists(maze_path) is False:
+    def __new__(cls, maze_path):
+        if not os.path.exists(maze_path):
             return None
-        self.maze = self.load_maze(maze_path)
+        instance = super().__new__(cls)
+        instance.maze = instance.load_maze(maze_path)
+        return instance
 
     @classmethod
     def load_maze(cls, maze_path):
