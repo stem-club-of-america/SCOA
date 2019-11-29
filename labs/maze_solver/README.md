@@ -8,6 +8,8 @@ but will instead performa a quasi depth first search.
 A link to a video of the end result can be found
 [here](./videos/).
 
+![MAZE_SOLVER](./videos/maze_solver.mp4)
+
 ## Maze generation
 This [link](https://www.dcode.fr/maze-generator) was used to generate the maps.
 The maps were further modified to close them in completely and place a start
