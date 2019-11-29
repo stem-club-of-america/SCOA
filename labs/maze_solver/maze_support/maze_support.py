@@ -84,5 +84,4 @@ class Maze:
         return None
 
     def __str__(self):
-        for row in self.maze:
-            print(''.join(row))
+        return '\n'.join((''.join(row) for row in self.maze))
