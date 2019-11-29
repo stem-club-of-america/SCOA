@@ -8,7 +8,7 @@ from maze_support import Maze
 class Solver:
     '''
     class Solver attempts to solve a maze. It does not perform any
-    optimizations (shortest path) but instead performs a quazi depth first
+    optimizations (shortest path) but instead performs a quasi depth first
     search until it finds the endpoint.
     '''
     def __init__(self, maze):
@@ -38,25 +38,25 @@ class Solver:
         self.seen.add(self.start)
 
         # initiall look at what surrounds current position
-        self.query_quadrants()
+        self._query_quadrants()
 
-    def query_quadrants(self):
+    def _query_quadrants(self):
         '''
-        query_quadrants() -> NoneType
+        _query_quadrants() -> NoneType
 
         Peers into the four coordinates around the current position.
         '''
         row, col = self.curr_pos
 
         # update seen up, down, left, and right
-        self.update_seen(row + 1, col)
-        self.update_seen(row - 1, col)
-        self.update_seen(row, col + 1)
-        self.update_seen(row, col - 1)
+        self._update_seen(row + 1, col)
+        self._update_seen(row - 1, col)
+        self._update_seen(row, col + 1)
+        self._update_seen(row, col - 1)
 
-    def update_seen(self, row, col):
+    def _update_seen(self, row, col):
         '''
-        update_seen(int, int) -> NoneType
+        _update_seen(int, int) -> NoneType
 
         Checks the position and updates seen if position is empty.
         '''
@@ -71,9 +71,9 @@ class Solver:
         if value == 'E':
             self.end = (row, col)
 
-    def perform_search(self):
+    def search(self):
         '''
-        perform_search() -> NoneType
+        search() -> NoneType
 
         Continues to move around until all all nodes have been visited.
         '''
@@ -111,7 +111,7 @@ class Solver:
                 os.system("cls")
             else:
                 os.system("clear")
-            
+
             # print solver's progress
             print(self)
 
@@ -125,7 +125,6 @@ class Solver:
 
         Updates current position.
         '''
-
         # if no position was sent, backtrack a position
         if row is None or col is None:
             self.curr_pos = self.path.pop()
@@ -167,7 +166,7 @@ if __name__ == "__main__":
     solver = Solver(maze)
 
     # instruct solver to search for the endpoint
-    solver.perform_search()
+    solver.search()
 
     # check to see if solver was able to solve the maze
     if solver.end is None:
