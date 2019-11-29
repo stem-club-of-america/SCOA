@@ -1,35 +1,6 @@
 import os
 
 
-class Node:
-    '''
-    A node is a point on the map that has edges to other nodes.
-    '''
-    def __init__(self, row, col):
-        self.row = row
-        self.col = col
-        self.edges = []
-
-    def add_edge(self, end_node, distance):
-        '''
-        add_edge(Node, int) -> None
-
-        Adds an edge to another node.
-        '''
-        new_edge = Edge(self, end_node, distance)
-        self.edges.append(new_edge)
-
-
-class Edge:
-    '''
-    An edge is a connector between two nodes.
-    '''
-    def __init(self, start, end, distance):
-        self.start = start
-        self.end = end
-        self.distance = distance
-
-
 class Maze:
     '''
     Maze loads and allows the querying of the maze.
@@ -83,5 +54,25 @@ class Maze:
 
         return None
 
-    def __str__(self):
-        return '\n'.join((''.join(row) for row in self.maze))
+    def __str__(self, visited=None, curr_pos=None):
+        '''
+        __str__(set=None, tuple=None) -> str
+
+        Given a set of coordinates and current position, print the current
+        state of the maze.  Otherwise, just print the maze.
+        '''
+        maze = []
+
+        if visited is None or curr_pos is None:
+            return '\n'.join((''.join(row) for row in self.maze))
+        else:
+            for r, row in enumerate(self.maze):
+                for c, spot in enumerate(row):
+                    if (r, c) == curr_pos:
+                        maze.append("O")
+                    elif (r, c) in visited:
+                        maze.append("~")
+                    else:
+                        maze.append(spot)
+                maze.append("\n")
+            return ''.join(maze)
