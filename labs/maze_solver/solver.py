@@ -101,7 +101,7 @@ class Solver:
                 self._update_pos()
 
             # take a look at surrounding positions
-            self.query_quadrants()
+            self._query_quadrants()
 
             # take a quick sleep so we can watch the progress of the search
             time.sleep(.1)
