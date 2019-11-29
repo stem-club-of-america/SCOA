@@ -9,11 +9,11 @@ class Maze:
         if not os.path.exists(maze_path):
             return None
         instance = super().__new__(cls)
-        instance.maze = instance.load_maze(maze_path)
+        instance.maze = instance._load_maze(maze_path)
         return instance
 
     @classmethod
-    def load_maze(cls, maze_path):
+    def _load_maze(cls, maze_path):
         '''
         load_maze(PATH) -> list of lists
 
