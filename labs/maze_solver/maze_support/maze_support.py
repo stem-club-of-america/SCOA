@@ -18,7 +18,7 @@ class Maze:
         """
         load_maze(PATH) -> list of lists
 
-        Loads in an ascii file for the maze and returns a list of lists for the
+        Loads in an ASCII file for the maze and returns a list of lists for the
         maze.
         """
         new_maze = []

@@ -38,7 +38,7 @@ class Solver:
         self.visited.add(self.start)
         self.seen.add(self.start)
 
-        # initiall look at what surrounds current position
+        # initially look at what surrounds current position
         self._query_quadrants()
 
     def _query_quadrants(self):
@@ -137,7 +137,7 @@ class Solver:
         # add new position to path (list)
         self.path.append(self.curr_pos)
 
-        # add new positoin to visited (set)
+        # add new position to visited (set)
         self.visited.add(self.curr_pos)
 
     def __str__(self):
