@@ -11,7 +11,7 @@
     - This Raspberry Pi project extends the Binary display with the addition of five push buttons to build a calculator capable of adding two 4-bit numbers and displaying them to the LEDs.
 
 4. [Message Board](./message_board/)
-    - This project is a very small project that builds a socket between from client to server for posting  messages.
+    - This project is a very small project that builds a socket between a client and a server for posting messages.
 
 5. [Analog Sensors](./analog_sensors/)
     - This project utilizes the MCP3002 Analog to Digital Converter (ADC) to read from a temperature and light sensor.
@@ -23,7 +23,7 @@
     - This project demonstrates how to use git to collaborate on various projects.
 
 8. [MAZE SOLVER](./maze_solver/)
-    - This project demonstrates solving an ASCII maze via a solver class.
+    - This project demonstrates solving an ASCII maze via a python solver class.
 
 ---
 :copyright: 2019 STEM Club of America
