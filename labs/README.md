@@ -22,5 +22,8 @@
 7. [GIT](./git/)
     This project demonstrates how to use git to collaborate on various projects.
 
+8. [MAZE SOLVER](./maze_solver/)
+    This project demonstrates solving an ASCII maze via a solver class.
+
 ---
 :copyright: 2019 STEM Club of America
