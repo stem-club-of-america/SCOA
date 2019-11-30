@@ -1,9 +1,9 @@
 ![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
 
 # Maze Solver
-In this lab, we will programatically figure out how to solve an ascii maze. We
-will not apply any optimizations such as using a shortes path first algorithm
-but will instead performa a quasi depth first search.
+In this lab, we will programmatically figure out how to solve an ASCII maze. We
+will not apply any optimizations such as using a shortest path first algorithm
+but will instead perform a quasi depth first search.
 
 ![MazeSolver](./images/maze_solver.gif).
 
@@ -26,8 +26,11 @@ The maps were further modified to close them in completely and place a start
 #        E#
 ###########
 ```
-Maze is completely closed in.  Walkways are represented by spaces.  Start is
-identified by a captital `S` and the end is identified by a captital `E`.
+
+* Maze is completely closed in.  
+* Walkways are represented by spaces.  
+* Start is identified by a capital `S`.
+* End is identified by a capital `E`.
 
 ## Maze Class API
 
