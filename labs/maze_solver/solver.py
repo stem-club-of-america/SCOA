@@ -6,11 +6,12 @@ from maze_support import Maze
 
 
 class Solver:
-    '''
+    """
     class Solver attempts to solve a maze. It does not perform any
     optimizations (shortest path) but instead performs a quasi depth first
     search until it finds the endpoint.
-    '''
+    """
+
     def __init__(self, maze):
         # store the maze
         self.maze = maze
@@ -41,11 +42,11 @@ class Solver:
         self._query_quadrants()
 
     def _query_quadrants(self):
-        '''
+        """
         _query_quadrants() -> NoneType
 
         Peers into the four coordinates around the current position.
-        '''
+        """
         row, col = self.curr_pos
 
         # update seen up, down, left, and right
@@ -55,28 +56,28 @@ class Solver:
         self._update_seen(row, col - 1)
 
     def _update_seen(self, row, col):
-        '''
+        """
         _update_seen(int, int) -> NoneType
 
         Checks the position and updates seen if position is empty.
-        '''
+        """
         # query the maze for what is at row, col
         value = self.maze.get_point(row, col)
 
         # Only update seen if position is blank or End point
-        if value == ' ' or value == "E":
+        if value == " " or value == "E":
             self.seen.add((row, col))
 
         # if position is End Point, record it in self.end
-        if value == 'E':
+        if value == "E":
             self.end = (row, col)
 
     def search(self):
-        '''
+        """
         search() -> NoneType
 
         Continues to move around until all all nodes have been visited.
-        '''
+        """
         while True:
 
             # determine if we have visited all known positions
@@ -104,7 +105,7 @@ class Solver:
             self._query_quadrants()
 
             # take a quick sleep so we can watch the progress of the search
-            time.sleep(.1)
+            time.sleep(0.1)
 
             # clear the screen
             if os.name == "nt":
@@ -120,11 +121,11 @@ class Solver:
                 break
 
     def _update_pos(self, row=None, col=None):
-        '''
+        """
         update_pos(int, int) -> NoneType
 
         Updates current position.
-        '''
+        """
         # if no position was sent, backtrack a position
         if row is None or col is None:
             self.curr_pos = self.path.pop()
@@ -140,11 +141,11 @@ class Solver:
         self.visited.add(self.curr_pos)
 
     def __str__(self):
-        '''
+        """
         __str__() -> str
 
         Print the current state of the maze.
-        '''
+        """
         return self.maze.__str__(self.visited, self.curr_pos)
 
 
