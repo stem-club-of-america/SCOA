@@ -5,8 +5,7 @@ In this lab, we will programatically figure out how to solve an ascii maze. We
 will not apply any optimizations such as using a shortes path first algorithm
 but will instead performa a quasi depth first search.
 
-A link to a video of the end result can be found
-[here](./videos/).
+![MazeSolver](./images/maze_solver.gif).
 
 ## Maze generation
 This [link](https://www.dcode.fr/maze-generator) was used to generate the maps.
