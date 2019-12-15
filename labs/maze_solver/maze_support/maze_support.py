@@ -30,12 +30,14 @@ class Maze:
 
         return new_maze
 
-    def get_point(self, row, col):
+    def get_point(self, point):
         """
-        get_point(int, int) -> str
+        get_point(tuple) -> str
 
         Returns the character at the row and column or None if not found.
         """
+        row, col = point
+        
         try:
             return self.maze[row][col]
         except IndexError:
