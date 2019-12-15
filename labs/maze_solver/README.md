@@ -1,5 +1,3 @@
-![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
-
 # Maze Solver
 In this lab, we will programmatically figure out how to solve an ASCII maze. We
 will not apply any optimizations such as using a shortest path first algorithm
@@ -50,9 +48,9 @@ The maps were further modified to close them in completely and place a start
 
 ### Get Position Contents
 ```
-    def get_point(self, row, col):
+    def get_point(self, point):
         '''
-        get_point(int, int) -> str
+        get_point(tuple) -> str
 
         Returns the character at the row and column or None if not found.
         '''
@@ -96,25 +94,62 @@ The maps were further modified to close them in completely and place a start
 
 ### Update Seen
 ```
-    def _update_seen(self, row, col):
+    def _update_seen(self, position):
         '''
-        _update_seen(int, int) -> NoneType
+        _update_seen(tuple) -> NoneType
 
         Checks the position and updates seen if position is empty.
         '''
 ```
 ### Update Position
 ```
-    def _update_pos(self, row=None, col=None):
+    def _update_pos(self, position):
         '''
-        update_pos(int, int) -> NoneType
+        update_pos(tuple) -> NoneType
 
         Updates current position.
         '''
 ```
 
+### left
+```
+    def left(position):
+        """
+        left(tuple) -> tuple
+
+        Returns position moved left by 1.
+        """
+```
+
+### right
+```
+    def right(position):
+        """
+        right(tuple) -> tuple
+
+        Returns position moved right by 1.
+        """
+```
+
+### up
+```
+    def up(position):
+        """
+        up(tuple) -> tuple
+
+        Returns position moved up by 1.
+        """
+```
+
+### down
+```
+    def down(position):
+        """
+        down(tuple) -> tuple
+
+        Returns position moved down by 1.
+        """
+```
+
 ### Print Current Maze
 `print(solver)` - calls `__str__` of maze object and returns string of maze
-
- ---
-:copyright: 2019 STEM Club of America
