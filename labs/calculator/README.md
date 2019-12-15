@@ -24,6 +24,9 @@ Specifically, this lab is built to continue to re-enforce the use of loops and
 thought processes.  However, it also relies heavily on the use of index values 
 when working with lists.
 
+## Difficulty
+3 / 5
+
 ## Calculator Lab
 This lab was built for the GECO girls to touch on the following principles:
 

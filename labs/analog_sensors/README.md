@@ -5,6 +5,9 @@ In this lab, we utilize an MCP3002 Analog to Digital Converter (ADC) to read fro
 
 We will also utilize a new python library we haven't used previously.  The *gpiozero* library was included with the standard Raspian install and greatly simplifies working with electrical components.  Interacting with the MCP3002 is super simple with *gpiozero*.
 
+## Difficulty
+3 / 5
+
 ## MCP3002
 This ADC has two channels enabling it to read up to two sensors.  This is a cheaper alternative to the MCP3008 which has eight channels.  Both of these chips utilize a Serial Peripheral Interface (SPI) which is a master/slave architecture where our Raspberry Pi will serve as the master querying the slave for sensor values.  The sensors are plugged into either channel 0 (pin 2) or channel 1 (pin 3).  The ADC reads the voltages on those pins, converts them to a floating point value, and returns the results to the master.
 

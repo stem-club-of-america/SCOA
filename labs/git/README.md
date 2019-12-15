@@ -9,6 +9,9 @@ among open-source projects.  In order to prepare our students for
 participation in various group projects, we will introduce them to Git by 
 covering some of the basic commands and uses.
 
+## Difficulty
+3 / 5
+
 ## Setup
 There are a number of ways that you could approach using and teaching Git.  
 I have found that most commonly, Git will be used to push to and pull from a 

@@ -15,6 +15,9 @@ to import as they code up generator.py.  They will be required to wire up the
 circuit and code the generator.py script along with the mentor.  They should
 not have to touch morse_code.py directly.
 
+## Difficulty
+3 / 5
+
 ## Morse Code Lab
 This lab was built for the GECO girls to touch on the following principles:
 

@@ -14,6 +14,9 @@ required to complete it.
 This lab is built to continue to re-enforce the use of loops and exception
 handling.  
 
+## Difficulty
+2 / 5
+
 ## Binary Display Topics
 This lab was built for the GECO girls to touch on the following principles:
 

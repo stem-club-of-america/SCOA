@@ -14,6 +14,9 @@ should take an additional 15-20 minutes.  To allow for questions, discussions,
 and troubleshooting, you'll need roughly 1.5 hours to cover all of the 
 material.
 
+## Difficulty
+4 / 5
+
 ## Networking Concepts
 
 * TCP/IP layers

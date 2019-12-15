@@ -5,6 +5,9 @@ but will instead perform a quasi depth first search.
 
 ![MazeSolver](./images/maze_solver.gif).
 
+## Difficulty
+5 / 5
+
 ## Maze generation
 This [link](https://www.dcode.fr/maze-generator) was used to generate the maps.
 The maps were further modified to close them in completely and place a start
