@@ -1,3 +1,5 @@
+![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
+
 # Maze Solver
 In this lab, we will programmatically figure out how to solve an ASCII maze. We
 will not apply any optimizations such as using a shortest path first algorithm
