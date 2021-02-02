@@ -25,5 +25,8 @@
 8. [MAZE SOLVER](./maze_solver/)
     - This project demonstrates solving an ASCII maze via a python solver class.
 
+9. [Pokemon Organizer](./pokemon_organizer)
+    - This project demonstrates parsing a text file for information and using that information to make a decision.
 ---
-:copyright: 2019 STEM Club of America
+
+All labs are licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.
