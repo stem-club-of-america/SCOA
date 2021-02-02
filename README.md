@@ -1,4 +1,4 @@
-![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
+![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
 ---
 STEM Club of America (SCOA) was founded in Grovetown, Georgia. The idea of SCOA grew out of a group of parents who wanted to get their daughters interested in STEM. The GECO club officially began meeting in 2017. As the meetings grew, several local businesses offered support and donations to GECO if they became a non-profit. Several GECO parents realized there was a larger community need for STEM so they formed SCOA.
 
