@@ -1,13 +1,15 @@
 ![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
 
-# Pokemon Organizer
+**Pokémon is a product of The Pokémon Company International and we are in no way affiliated with them.**
+
+# Pokémon Organizer
 In this lab we will figure out how to parse a text file for pieces of information in order to make a decision.  This would be somewhat like what a data scientist would do except without the use of advanced algorithms and data structures.  This lab is potentially too difficult for newer students not used to doing text parsing and multiple dictionaries.  Variations could however, make this less of a hurdle.
 
 ## Difficulty
 5 / 5
 
 ## Scenario
-Your friend has asked you to help him strategize his Pokemon battles.  He has written down each Pokemon he is aware of in a file.  Additionally, he has written down the various Pokemon types and their known weaknesses and immunities.
+Your friend has asked you to help him strategize his Pokémon battles.  He has written down each Pokémon he is aware of in a file.  Additionally, he has written down the various Pokémon types and their known weaknesses and immunities.
 
 ## Goals
 1. Read in these two files and organize them for quick lookup.
@@ -16,10 +18,10 @@ Your friend has asked you to help him strategize his Pokemon battles.  He has wr
 1. Determine which of your 3 cards would be a good match for your opponent based on your opponents weaknesses, resistances, and immunities.  You may not have a perfect fit but you must choose one.
 
 ### Read in the two files
-I would suggest storing information in a dictionary.  I would also suggest keeping it simple and only recording information you need such as the name of Pokemon, their first type (Type1), their weaknesses, resistances, and immunities.  You just need to record enough information to make some type of decision about which Pokemon to play.
+I would suggest storing information in a dictionary.  I would also suggest keeping it simple and only recording information you need such as the name of Pokémon, their first type (Type1), their weaknesses, resistances, and immunities.  You just need to record enough information to make some type of decision about which Pokémon to play.
 
 #### types.txt
-*types.txt* lists the Pokemon type names, weaknesses, resistances, and immunities.  Not all types have each of these though.
+*types.txt* lists the Pokémon type names, weaknesses, resistances, and immunities.  Not all types have each of these though.
 
 Example
 ```
@@ -74,7 +76,7 @@ def get_types(filename):
 > This may seem advanced for some students as the above code relies heavily on list comprehensions and a dictionary of dictionaries.  It is completely fine to use other methodologies. 
 
 #### pokemon.txt
-*pokemon.txt* is laid out very similar to *types.txt* but lists over 600 different Pokemon.
+*pokemon.txt* is laid out very similar to *types.txt* but lists over 600 different Pokémon.
 
 Example:
 ```
@@ -109,7 +111,7 @@ BattlerAltitude=0
 Evolutions=IVYSAUR,Level,16
 ```
 
-> Not every field is needed and it is possible for a Pokemon to be listed more than once.
+> Not every field is needed and it is possible for a Pokémon to be listed more than once.
 
 There are many ways to parse this information out.  One way to do this would be:
 ```python3
@@ -192,4 +194,4 @@ This could play out something like:
 ```
 
 ## Credit
-> The two Pokemon text files used in this project were taken from Ian Zewiske's Pokemon Project hosted on [github.com](https://github.com/izewiske/Pokemon)
+> The two Pokémon text files used in this project were taken from Ian Zewiske's Pokémon Project hosted on [github.com](https://github.com/izewiske/Pokémon)
