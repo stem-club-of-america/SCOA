@@ -1,4 +1,4 @@
-![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
+![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
 
 # OTW_CTF
 In this lab, we will introduce the club to Capture The Flag (CTF) exercises via [Over the Wire](http://overthewire.org/).  Using the first couple levels of the Bandit wargame, we'll challenge and demonstrate ways to reveal the flag (the next level's password) in order to expose the club to additional Linux commands and hopefully spark some interest in future activities of this type.  Although only the first 10 or so levels will be covered in this lab, students are encouraged to continue pressing on.

@@ -1,4 +1,4 @@
-![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
+![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
 
 # Morse Code Generator
 In this lab, we build a tool that takes text as input, translates it into morse

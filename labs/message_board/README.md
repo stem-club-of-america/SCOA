@@ -1,4 +1,4 @@
-![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
+![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
 
 # Message Board
 In this lab, we are building a client to interact with a server via a network

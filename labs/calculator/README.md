@@ -1,4 +1,4 @@
-![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
+![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
 
 # Calculator
 In this lab, we build a calculator that can add two four-bit numbers together 

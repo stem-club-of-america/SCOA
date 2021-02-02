@@ -1,4 +1,4 @@
-![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
+![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
 
 # Morse Code Lab
 This lab is intended to guide the students towards figuring out the components

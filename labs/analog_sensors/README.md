@@ -1,4 +1,4 @@
-![SCOA](https://github.com/stem-club-of-america/SCOA/blob/master/images/SCOA_Logo_Small.png)
+![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
 
 # Analog Sensors
 In this lab, we utilize an MCP3002 Analog to Digital Converter (ADC) to read from a TMP36 temperature sensor as well as a photoresistor (Light Dependent Resistor - LDR).  Utilizing the readings from these two analog sensors, we will trigger a red LED when the temperature gets too hot and a white LED when it gets too dark.
