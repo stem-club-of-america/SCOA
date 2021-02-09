@@ -30,7 +30,7 @@ Dec Hex    Dec Hex    Dec Hex  Dec Hex  Dec Hex  Dec Hex   Dec Hex   Dec Hex
 ```
 
 ## Rotation Cipher
-We'll use a rot13 (rotate 13) cipher.  This is an easy cipher because the alphabet has 26 characters.  If weotate 13 characters to the right, you have your cipher character and rotate 13 again and you have your original character.  We'll apply this logic using the ascii decimal values above.
+We'll use a rot13 (rotate 13) cipher.  This is an easy cipher because the alphabet has 26 characters.  If we rotate 13 characters to the right, you have your cipher character and rotate 13 again and you have your original character.  We'll apply this logic using the ASCII decimal values above.
 
 ```python3
 def rot13(phrase):
@@ -65,7 +65,7 @@ def rot13(phrase):
 ```
 
 ## Substitution Cipher
-Substitution ciphers are about replacing each group of plaintext letters with another predefined group. For decrypting, one should use a reverse substitution.
+Substitution ciphers are about replacing each group of plain-text letters with another predefined group. For decrypting, one should use a reverse substitution.
 
 ```python 3
 from string import printable
@@ -109,7 +109,7 @@ XOR or Exclusive OR is a bitwise (works on the individual bits of number) operat
 1 ^ 0 = 1
 1 ^ 1 = 0
 
-When the bits are different, *XOR* returns a 1. When the bits are the same, it returns a 0.  Because of this phenomonon, we can *XOR* with a key to encrypt, and *XOR* with the same key a second time to decrypt.
+When the bits are different, *XOR* returns a 1. When the bits are the same, it returns a 0.  Because of this phenomenon, we can *XOR* with a key to encrypt, and *XOR* with the same key a second time to decrypt.
 
 ```python3
 def xor(phrase, key):
