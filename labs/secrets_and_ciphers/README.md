@@ -92,22 +92,27 @@ def generate_substitutions():
 XOR or Exclusive OR is a bitwise (works on the individual bits of number) operation. See the truth table below for *AND*, *OR*, and *XOR*:
 
 ### AND
+```text
 0 & 0 = 0
 0 & 1 = 0
 1 & 0 = 0
 1 & 1 = 1
+```
 
 ### OR
+```text
 0 | 0 = 0
 0 | 1 = 1
 1 | 0 = 1
 1 | 1 = 1
-
+```
 ### XOR
+```text
 0 ^ 0 = 0
 0 ^ 1 = 1
 1 ^ 0 = 1
 1 ^ 1 = 0
+```
 
 When the bits are different, *XOR* returns a 1. When the bits are the same, it returns a 0.  Because of this phenomenon, we can *XOR* with a key to encrypt, and *XOR* with the same key a second time to decrypt.
 
