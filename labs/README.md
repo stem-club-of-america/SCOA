@@ -28,6 +28,9 @@
 9. [Pokemon Organizer](./pokemon_organizer)
     - This project demonstrates parsing a text file for information and using that information to make a decision.
 	- Pokémon is a product of The Pokémon Company International and we are in no way affiliated with them.
+
+10. [Secrets and Ciphers](./secrets_and_ciphers)
+    - This project demonstrates text manipulation and encryption through a substitution cipher, rotation cipher, and the use of XOR.
 ---
 
 All labs are licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.
