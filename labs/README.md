@@ -31,6 +31,9 @@
 
 10. [Secrets and Ciphers](./secrets_and_ciphers)
     - This project demonstrates text manipulation and encryption through a substitution cipher, rotation cipher, and the use of XOR.
+
+11. [Map](./map)
+	- This project utilizes classes, graphs, and JSON files.
 ---
 
 All labs are licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.

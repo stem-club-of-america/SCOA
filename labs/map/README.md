@@ -1,6 +1,6 @@
 ![SCOA](https://github.com/stem-club-of-america/SCOA/blob/main/images/SCOA_Logo_Small.png)
 
-# Wanderer
+# Map
 In this lab, we'll work with classes, graphs, and JSON (JavaScript Object Notation).  Essentially, the JSON file has a list of states and their adjacent states.  We'll use this information to build of graph of nodes (states) and their edges to other nodes (states).  We won't do anything complicated with that resulting graph other than to print out the adjacent states to where our player is currently located.
 
 ## Difficulty
