@@ -28,9 +28,9 @@ A tree of the finished lab directory:
 ### Files
 * states.py -> the main program
 * locations.json ->  a data file that will form the basis of our graph
-* __init__.py -> help with importing our location and player library files
+* __init__.py -> helps with importing our location and player library files
 * location.py -> specifies a Location class
-* player.py -> specifies a player class
+* player.py -> specifies a Player class
 
 ## Graphs
 Graphs can be applied to all sorts of problems.  The main components are:
