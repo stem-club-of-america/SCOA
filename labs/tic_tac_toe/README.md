@@ -3,7 +3,7 @@
 # Tic Tac Toe
 In this lab, we build the Tic Tac Toe game in python.  The game itself has easy logic and game-play so it can be completed in a decent amount of time. Advanced students may be able to complete this on their own.  Most students will need help.
 
-![TicTacToe](https://github.com/stem-club-of-america/SCOA/blob/main/labs/tictactoe/images/tictactoe.png)
+![TicTacToe](https://github.com/stem-club-of-america/SCOA/blob/main/labs/tic_tac_toe/images/tictactoe.png)
 
 ## Requirements
 The sample lab code uses Unicode characters to represent the board.  In this day and age, every terminal should support Unicode.
