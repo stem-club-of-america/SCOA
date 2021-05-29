@@ -5,6 +5,9 @@ In this lab, we build the Tic Tac Toe game in python.  The game itself has easy 
 
 ![TicTacToe](https://github.com/stem-club-of-america/SCOA/blob/main/labs/tic_tac_toe/images/tictactoe.png)
 
+## Difficulty
+2/5
+
 ## Requirements
 The sample lab code uses Unicode characters to represent the board.  In this day and age, every terminal should support Unicode.
 
