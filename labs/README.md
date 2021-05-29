@@ -34,6 +34,9 @@
 
 11. [Map](./map)
 	- This project utilizes classes, graphs, and JSON files.
+
+12. [TicTacToe](./tic_tac_toe)
+	- This project uses Python to write a simple Tic Tac Toe game.
 ---
 
 All labs are licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**.
